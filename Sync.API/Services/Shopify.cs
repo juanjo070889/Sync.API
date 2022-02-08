@@ -121,11 +121,9 @@ namespace Sync.API.Services
          
             var shopify = new
             {
-
                     inventory_item_id = variant.inventory_item_id,
                     available = quantity,
                     location_id = "67300950240"
-                    
             };
 
             var method = $"inventory_levels/set.json";

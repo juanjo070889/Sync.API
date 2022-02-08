@@ -120,7 +120,6 @@ namespace Sync.API.Controllers
         public async Task<ActionResult> SyncOrders()
         {
             MessageResponseDTO response = new MessageResponseDTO();
-
             try
             {
                 var orders = await _shopify.GetAllOrdersPaid();

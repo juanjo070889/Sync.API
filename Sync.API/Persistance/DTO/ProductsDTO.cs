@@ -4,8 +4,6 @@ using System.Text;
 
 namespace Sync.API.Persistance.DTO
 {
-    // ProductDTO myDeserializedClass = JsonConvert.DeserializeObject<ProductDTO>(myJsonResponse);
-
     public class Variant
     {
         public long id { get; set; }

@@ -4,7 +4,6 @@ using System.Text;
 
 namespace Sync.API.Persistance.DTO
 {
-    // OrderDTO myDeserializedClass = JsonConvert.DeserializeObject<OrderDTO>(myJsonResponse);
     public class ClientDetails
     {
         public string accept_language { get; set; }
